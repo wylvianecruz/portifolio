@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: "Oxygen", serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.destaque{
+    font-size: 25px;
+    color: #EB4D13;
+}
+
+.container{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__conteudo{
+    width: 615px;
+}
+
+.titulo{
+    font-size: 30px;
+    
+}
+
+.paragrafo{
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    font-weight: 300    ;
+
+}
