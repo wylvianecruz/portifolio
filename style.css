@@ -63,17 +63,26 @@ body{
     font-weight: 300;
 }
 
+
 .link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #ffae00d5;
     width: 280px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 300;
     padding: 10px 0;
     text-decoration: none;
     color: #ffffff;
     font-family:"Roboto", serif; 
-  
+    transition: 0.3s ease-in-out;
+}
+
+.link:hover{
+    background-color: #ffae00d5;
+    transform: scale(1.05);
 
 }
